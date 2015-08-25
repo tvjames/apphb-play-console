@@ -14,6 +14,8 @@ namespace AppHbPlayConsole
 
         static void Main(string[] args)
         {
+            Console.WriteLine("I'm ALIVE!");
+
             var loggerConfiguration = new LoggerConfiguration()
                 .WriteTo.ColoredConsole()
                 .Enrich.WithMachineName()
