@@ -1,1 +1,1 @@
-ConsoleWorker: AppHbPlayConsole.exe 300
+ConsoleWorker: AppHbPlayConsole.exe 10
