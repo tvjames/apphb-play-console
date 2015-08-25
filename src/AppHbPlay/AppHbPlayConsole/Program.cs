@@ -94,19 +94,4 @@ namespace AppHbPlayConsole
         public string InstanceId { get; private set; }
         public string InstanceType { get; private set; }
     }
-
-    class WithPropertyInit
-    {
-        public string FirstProp { get; } = "First Prop Value";
-        public string SecondProp { get; } = "Second Prop Value";
-
-        public string ConstructorSetProp { get; }
-
-        public WithPropertyInit()
-        {
-            this.ConstructorSetProp = $"Using string interpolation {Program.Random.Next()}";
-        }
-
-        public string NameOfProp() => nameof(this.ConstructorSetProp);
-    }
 }
